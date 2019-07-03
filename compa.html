@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/indexcontact.css">
+    <script src="JS/funcion.js"></script>
+    <title>Compre MCH</title>
+</head>
+
+<body>
+    <header>
+            <div id="cabecilla">
+            <ul class="nav">
+                
+
+                <li><a href="index.html"><span class=""><i class="icon icon-earth"></i></span> Quienes somos</a> </li>  
+                
+                <li><a href=""><span class=""><i class="icon icon-office"></i></span> Instalaciones</a> </li>
+                     
+                <li><a href="index.html"><span class=""><i class="icon icon-display"></i></span> Servicios</a> </li>  
+                
+                <li><a href=""><span class=""><i class="icon icon-cart"></i></span> Productos</a> </li>  
+                
+                <li><a href="contacto.html"><span class=""><i class="icon icon-envelop"></i></span> Contacto</a> </li>
+                
+            </ul>
+            </div>  
+    </header>
+    <div id="muestras">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Los mejores productos del mercado</h1>
+        <p>MCH les ofrece los mejores productos de las mayores potencias que hay en el mercado. Contamos con el mejor pórtatil de alta gama del mercado, <a href="https://www.msi.com/Prestige/P75-Creator-9SX">MSI P75 Creator</a>, en smartphones les ofrecemos el <a href="https://www.mi.com/es/mix2s/">Xiao Mi Mix 2s</a>, la impresora <a href="https://store.hp.com/SpainStore/Merch/Product.aspx?id=D3Q20B&opt=A80&sel=PRN">HP PageWide Pro 477</a>, y un periférico muy especial, el teclado <a href="https://www.logitechg.com/es-es/products/gaming-keyboards/g213-rgb-gaming-keyboard.html">Logitech G213 Prodigy.</a></p>
+        
+        <table id="tablero">
+            <ul class="sombr">
+        <tr>
+            <td><li><a><img src="IMG/pc.png" class="products" usemap="#pcmap"></a> </li></td> <map name="pcmap"> <area coords="1,1, 796,674" href="https://www.msi.com/index.php" shape="rect" alt="pc"></map>
+            <td><li><a><img src="IMG/movil.jpg" class="products" usemap="#movilmap"></a></li></td><map name="movilmap"> <area coords="3,3, 1359,717" href="https://www.mi.com/es/" shape="rect" alt="mov"></map>
+            </tr>
+        <tr>
+            <td><li><a><img src="IMG/impresora.jpg" class="products" usemap="#impmap"></a></li></td><map name="impmap"> <area coords="2,1, 1491,1487" href="https://store.hp.com/SpainStore/Merch/Default.aspx" shape="rect" alt="imp"></map>
+            <td><li><a><img src="IMG/teclado.png" class="products" usemap="#maptecl"></a></li></td><map name="maptecl"> <area coords="2,3, 567,567" href="https://www.logitech.com/es-es" shape="rect" alt="tecl"></map>
+            </tr>
+         </ul>
+        </table>
+           
+    
+    </div>
+     <form name="compra" method="post" action="mailto:raul.rodriguez@universidadeuropea.com" onsubmit="validarCompra()">
+        <fieldset>  
+            <legend>Compre nuestros productos</legend>
+             Nombre: <input type="text" name="nombre" size="30" required> 
+            <br>
+            <br>
+            Apellidos: <input type="text" name="nombre" size="30" required> 
+            <br>
+            <br>
+               Correo electrónico: <input type="mail" name="email" size="30" required> 
+                <br>
+                <br>  
+             Teléfono:<input type="text" name="telef" size="30"> 
+                 <br>
+                <br>
+            
+             Productos: <input type=checkbox name="portatil"> Portátil
+            <select name="prod1">
+                <option>0</option>
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+            </select>
+             <input type=checkbox name="movil"> Smartphone
+            <select name="prod2">
+                        <option>0</option>
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+             </select>
+            
+                 <input type=checkbox name="impresora"> Impresoras
+            <select name="prod3"> 
+                          <option>0</option>
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+            </select>
+            
+            <input type=checkbox name="teclado"> Teclado
+            <select name="prod4">
+                <option>0</option>
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+            </select> 
+            <br>
+            <br>
+            <input type="submit" value="Hacer pedido">
+            <input type="reset" value="Borrar pedido">
+        </fieldset>
+    </form>
+    <br>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="linea1"> </div>
+        <div class="sub2"> <a href="https://www.aepd.es/agencia/politica-privacidad-aviso-legal.html">Aviso legal</a> </div>     <div class="sub2"> <a href="https://twitter.com/?lang=es">RRSS</a></div>    
+        <div class="sub2"><a href="https://www.google.com/intl/es/gmail/about/#">Email</a></div>   <div class="sub2"><a href="https://universidadeuropea.es/madrid">UEM</a></div> <div class="sub2"><a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">Cookies</a></div>
+</body>
+</html>

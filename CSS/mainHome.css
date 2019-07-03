@@ -1,0 +1,250 @@
+@font-face{
+    font-family: amblas;
+    src: url(../Amblas.ttf);
+}
+*{
+    font-family: amblas;
+    justify-content: center;
+}
+header{
+    width: 100%
+}
+body{
+    font-family: amblas;
+}
+.nav{
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -21px;
+    
+    /*position: fixed;*/
+}
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    width: 100%;
+    
+}
+.nav > li{  
+    float:left;
+}
+.nav li :hover{
+    color: gold;
+  
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    
+}
+.nav li:hover > ul{
+    display: block;
+}
+#nav > ul li a {
+  display: block;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center; 
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition:  .3s ease;
+
+}
+nav > ul > li > span {
+    background:;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:-55px;
+}
+#tit{
+    margin-left: 100px;
+}
+
+#caja{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.parraf{
+    text-align: left;
+    margin-top:;
+    
+}
+.cuerpo{
+    border: 1 px solid none;
+}
+.test1{
+    border: 1px solid none;
+    width: 400px;
+    height: 200px;
+    float:left;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.test2{
+    border: 1px solid none;
+    width: 400px;
+    float:left;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.person1{
+    border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../IMG/fotohombre.png);    
+    float:left;
+}
+.person2{
+    border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../IMG/fotomujer13.png);
+    float:left;
+    
+}
+.person3{
+    border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../IMG/fotomujer22.png);
+    float:left;
+}
+.test3{
+    border: 1px solid none;
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 110px;
+    margin-top: 70px;
+}
+.linea1{    
+    border:1px solid grey;
+}
+.duenios{
+    margin-top: 25px;
+}
+#inst{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 800px;
+    
+}
+#servicios{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: none;
+}
+
+#imguni{
+    float:left;
+    height:270px;
+    width: 400px;
+    margin-right: 20px;
+    
+}
+#rotacion{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+#fotoservicio1{
+    float:left;
+    height:400px;
+    width: 500px;
+}
+#fotoservicio2{
+    margin-left: 200px;
+     height:400px;
+    width: 500px;
+}
+#products{
+    width: 100%;
+    position: relative;
+    
+}
+.boton{
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition:  .3s ease;
+}
+.boton:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+.atras{
+    left:2%;
+    top: calc(50%-70px);
+}
+alante{
+    right:2%;
+    top: calc(50%-70px);
+}
+#cajafotos{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ #img{
+  width: 500px;
+  height: 500px;    
+  margin-left: 400px;
+     margin-bottom: 100px;
+ }
+#gal{
+    font-size: 25px;
+    margin-left: 300px;
+    align-content: center;
+}
+.imgacto{
+ 
+    width: 280px;
+    height: 200px;
+}
+ ul.galeria li{
+float: left;
+margin: 0 10px;
+ border: 1px solid #ddd;
+list-style: none;
+}
+ul.galeria li a img{
+float: left;
+ width: 200px;
+}
+ ul.galeria li a:hover img{
+ transform: scale(1.5);
+ box-shadow: 4px 4px 10px blue;
+}
+.sub2{
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 250px;
+}
